@@ -134,7 +134,7 @@ unsigned int defaultfg = 12;
 unsigned int defaultbg = 8;
 static unsigned int defaultcs = 256;
 static unsigned int defaultrcs = 257;
-unsigned int bg = 17, bgUnfocused = 16;
+unsigned int bg = 8, bgUnfocused = 8;
 
 /*
  * Default shape of cursor
@@ -399,7 +399,7 @@ static Key key[] = {
 	{ XK_F5, /* F29 */  ControlMask,    "\033[15;5~",    0,    0},
 	{ XK_F5, /* F41 */  Mod4Mask,       "\033[15;6~",    0,    0},
 	{ XK_F5, /* F53 */  Mod1Mask,       "\033[15;3~",    0,    0},
-	{ XK_F6,            XK_NO_MOD,      "\033[17~",      0,    0},
+	{ XK_F6,            XK_NO_MOD,      "\033[17~",      0,    0},https://github.com/clonex10100/stpatched.git
 	{ XK_F6, /* F18 */  ShiftMask,      "\033[17;2~",    0,    0},
 	{ XK_F6, /* F30 */  ControlMask,    "\033[17;5~",    0,    0},
 	{ XK_F6, /* F42 */  Mod4Mask,       "\033[17;6~",    0,    0},
